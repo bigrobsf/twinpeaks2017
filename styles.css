@@ -1,0 +1,69 @@
+body {
+  margin: 0 auto;
+  max-width: 1400px;
+  background-image: url(assets/pattern-light.jpg);
+  background-repeat: repeat;
+}
+
+header {
+  border-top: 2px solid #b71c1c;
+}
+
+footer {
+  color: #eeeeee;
+  height: 50px;
+  line-height: 50px;
+  padding-left: 4vmin;
+  background: #424242;
+}
+
+header, footer {
+  border-bottom: 2px solid #b71c1c;
+}
+
+footer > p > a {
+  color: #ffcdd2;
+}
+
+footer > p > a:hover {
+  color: #ef9a9a;
+}
+
+figure > img {
+  cursor: zoom-in;
+}
+
+figcaption {
+  margin: 1vmin 0;
+  font-style: italic;
+}
+
+h1 {
+  font-size: 6vmin;
+}
+
+.heading {
+  padding: 0 1vmin;
+}
+
+.navbar-brand img {
+  margin-top: -.5vmin;
+  width: 35px;
+}
+
+.black-lodge {
+  background-image: url(assets/pattern.jpg);
+  background-repeat: repeat;
+  height: 6vmin;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.episode {
+  background: #fafafa;
+  border: 1px solid #b71c1c;
+  padding: 2vmin;
+  margin-bottom: 3vmin;
+}
