@@ -75,6 +75,14 @@ h1 {
   border: 1px solid #222222;
 }
 
+.actors a, p > b > a {
+  color: #d50000;
+}
+
+.actors a:hover, p > b > a:hover {
+  color: #b71c1c;
+}
+
 .portrait {
   float: left;
   margin-right: 1vmin;
