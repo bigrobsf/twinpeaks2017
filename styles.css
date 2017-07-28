@@ -46,6 +46,12 @@ h1 {
   padding: 0 1vmin;
 }
 
+.heading > p {
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
 .navbar-brand img {
   margin-top: -1vmin;
   width: 35px;
@@ -75,11 +81,11 @@ h1 {
   border: 1px solid #222222;
 }
 
-.actors a, p > b > a {
+.actors a, .heading a {
   color: #d50000;
 }
 
-.actors a:hover, p > b > a:hover {
+.actors a:hover, .heading a:hover {
   color: #b71c1c;
 }
 
