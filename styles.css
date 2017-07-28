@@ -47,7 +47,7 @@ h1 {
 }
 
 .navbar-brand img {
-  margin-top: -.5vmin;
+  margin-top: -1vmin;
   width: 35px;
 }
 
@@ -61,9 +61,37 @@ h1 {
   margin: 0 auto;
 }
 
-.episode {
+.episode, .actors {
   background: #fafafa;
-  border: 1px solid #b71c1c;
   padding: 2vmin;
   margin-bottom: 3vmin;
+}
+
+.episode {
+  border: 1px solid #b71c1c;
+}
+
+.actors {
+  border: 1px solid #222222;
+}
+
+.portrait {
+  float: left;
+  margin-right: 1vmin;
+}
+
+.img-actor {
+  width: 200px;
+}
+
+.actor-name, .character-name {
+  font-weight: bold;
+}
+
+.actor-name {
+}
+
+.character-name {
+  color: #b71c1c;
+  font-style: italic;
 }
